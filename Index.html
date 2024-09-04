@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading" id="heading">RESUME BUILDER-- <span>Enter details to build</span></h1>
+    <div id="user-details">
+        <form id="user-form">
+            <label for="user-name">Enter your name: </label>
+            <input type="text" name="user-name" id="user-name" required>
+
+            <label for="user-age">Enter your age: </label>
+            <input type="number" name="user-age" id="user-age" required min="18" max="60">
+
+            <label for="user-description">Describe your self: </label>
+            <textarea name="user-description" id="user-description" required></textarea>
+
+            <label for="user-experience">Select your experience: </label>
+            <select name="user-experience" id="user-experience" required>
+                <option value="fresher" for="user-experience">fresher</option>
+                <option value="0-2 years">0-2 years</option>
+                <option value="3-6 years">3-6 years</option>
+                <option value="more than 6 years">more than 6 years</option>
+            </select>
+
+            <label for="user-skills">Enter your skills: </label>
+            <input type="text" name="user-skills" id="user-skills" required>
+
+            <label for="user-number">Enter your Contact Number: </label>
+            <input type="number" name="user-number" id="user-number" required>
+
+            <label for="user-email">Enter your email id: </label>
+            <input type="email" name="user-email" id="user-email">
+
+            <input type="submit" value="Create Resume" id="submit-button" class="button">
+            <input type="reset" name="reset-button" id="reset-button" value="Reset details" class="button">
+        </form>
+    </div>
+    <div id="resume-output">
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

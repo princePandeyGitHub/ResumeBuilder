@@ -1,0 +1,68 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ff00000f;
+}
+.heading{
+    text-align: center;
+    background-color: #f7dde2cf;
+}
+#user-details, #resume-output{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 60vw;
+    margin: auto;
+    background-color: #f7dde2cf;
+    padding: 1%;
+}
+#user-form{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+input, textarea, option, select, .button{
+    background-color: #ff00000f;
+    border: 2px solid pink;
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%;
+    font-weight: 600;
+    font-size: x-large;
+    border-radius: 30px;
+    overflow: auto;
+} 
+.resume-output {
+    background-color: #f3b6b60f;
+    /* border: 2px solid pink; */
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%;
+    font-weight: 600;
+    overflow: auto;
+}
+label{
+    font-weight: 600;
+    font-size: x-large;
+}
+.button {
+    background-color: #ffffff; /* White button background */
+    color: #ff69b4; /* Pink text color */
+    border: 2px solid #ff69b4; /* Pink border */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+}
+.button:hover{
+    background-color: #ff1493; /* Darker pink on hover */
+    color: #ffffff; /* White text color on hover */
+}
+@media (max-width: 425px){
+    input, textarea, option, select, .resume-output, .button{
+        font-size: large;
+    }
+    label{
+        font-size: medium;
+    }
+}
