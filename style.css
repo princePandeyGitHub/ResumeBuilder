@@ -65,7 +65,7 @@ label{
     label{
         font-size: medium;
     }
-#user-details, .resume-output{
-    width: 80vw;
+#user-details, #resume-output{
+    width: 100%;
 }
 }
