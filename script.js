@@ -9,7 +9,7 @@ document.getElementById('user-form').addEventListener('submit',(event)=>{
     const userEmail = document.getElementById('user-email').value;
 
     const output = `<h1 class="heading">${userName}</h1>
-    <p>Description: ${userDescription}</p>
+    <p>Description:${userDescription}</p>
     <hr>
     <h4 class="resume-output">Age: ${userAge}</h4>
     <h4 class="resume-output">Skills: ${userSkill}</h4>
