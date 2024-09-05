@@ -36,7 +36,7 @@ input, textarea, option, select, .button{
 .resume-output {
     background-color: #f3b6b60f;
     /* border: 2px solid pink; */
-    text-align: center;
+    /* text-align: center; */
     margin-top: 1%;
     padding: 1%;
     font-weight: 600;
