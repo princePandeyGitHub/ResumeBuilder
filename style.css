@@ -65,7 +65,8 @@ label{
     label{
         font-size: medium;
     }
-#user-details, #resume-output{
-    width: 100%;
-}
+    /* making it more mobile friendly */
+    #user-details, #resume-output{
+        width: 100%;
+    }
 }
