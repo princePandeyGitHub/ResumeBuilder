@@ -9,13 +9,13 @@ document.getElementById('user-form').addEventListener('submit',(event)=>{
     const userEmail = document.getElementById('user-email').value;
 
     const output = `<h1 class="heading">${userName}</h1>
-<hr>
+    <p>Description: ${userDescription}</p>
+    <hr>
     <h4 class="resume-output">Age: ${userAge}</h4>
     <h4 class="resume-output">Skills: ${userSkill}</h4>
     <h4 class="resume-output">Experience: ${userExperience}</h4>
     <h4 class="resume-output">Contact Number: ${userNumber}</h4>
     <h4 class="resume-output">Email id: ${userEmail}</h4>
-    <p class="resume-output">Description: ${userDescription}</p>
     <input type="button" value="Download Resume" class="button" id="download">
     `
     document.getElementById('resume-output').innerHTML = output;
